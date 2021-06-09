@@ -5,7 +5,7 @@ function ju_customize_register( $wp_customize ){
     // var_dump( $wp_customize );
     // echo '</pre>';
 
-    $wp_customize->get_section( 'title_tagline' )->title    =   'General';
+    $wp_customize->get_section( 'title_tagline' )->title    =   'General';  // Changes "Site Identity" to "General"
 
     $wp_customize->add_panel( 'udemy', [
         'title'         =>  __( 'Udemy', 'udemy' ),
